@@ -1,0 +1,39 @@
+:root {
+ --main-color: rgb(134, 144, 230);
+ --secondar-color: ;
+ --tertiary-color: ;
+}
+* {
+ margin: 0;
+ padding: 0;
+}
+header {
+ width: 100%;
+ height: auto;
+ padding: .5em;
+ display: flex;
+ background-color: var(--main-color);
+}
+header h1 {
+ letter-spacing: .1em;
+ color: #fff;
+ font-weight: bolder;
+}
+header nav ul {
+ text-align: center;
+ align-content: center;
+ 
+}
+header nav ul li {
+ display: -ms-inline-flexbox;
+ display: inline-flex;
+ padding: .8em 1em;
+ list-style: none;
+}
+header nav ul li a {
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 18px;
+ letter-spacing: .1em;
+ color: #fff;
+}
