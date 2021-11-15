@@ -1,7 +1,9 @@
 :root {
- --main-color: rgb(56, 195, 230);
- --secondary-color: rgb(63, 51, 107);
- --tertiary-color: ;
+ --main-color: #5A5A66;
+ --secondary-color: #d6e7d9;
+ --tertiary-color: #ACEB98;
+ --accent-color: #2A2B2E;
+ --bottom-border: var(--accent-color) solid 3px;
 }
 * {
  margin: 0;
@@ -15,11 +17,10 @@ header {
  padding: .5em 1em;
  display: flex;
  flex-wrap: wrap;
- background-color: var(--main-color);
+ background-color: var(--accent-color);
 }
 header h1 {
  letter-spacing: .1em;
- color: #fff;
  font-weight: bolder;
  text-align: center;
  width: 100%;
@@ -47,7 +48,7 @@ header nav ul li a {
  font-weight: bold;
  font-size: 18px;
  letter-spacing: .1em;
- color: #fff;
+ color: var(--tertiary-color);
 }
 /* Header End */
 /* Hero Banner Start */
@@ -59,7 +60,7 @@ header nav ul li a {
 }
 .hero h2 {
  text-align: center;
- color: var(--main-color);
+ color: var(--accent-color);
 }
 .hero-subtitle {
  position: relative;
@@ -68,6 +69,44 @@ header nav ul li a {
  top: 80px;
  padding: .5em;
  background-color: var(--secondary-color);
+}
+/* Hero Section End */
+/* Sections Start */
+.section-container {
+ width: 100%;
+ height: auto;
+ padding: 1em;
+ background-color: var(--secondary-color);
+ color: var(--accent-color);
+}
+.section-title-container {
+ width: 100%;
+ height: 30px;
+ display: block;
+ margin-bottom: .5em;
+ border-bottom: var(--bottom-border);
+}
+.section-title {
+ text-align: center;
+}
+/* Section End */
+#contact-link-container ul {
+align-items: center;
+text-align: center;
+}
+.contact-links {
+ list-style-type: none;
+ display: inline-block;
+}
+.contact-links a {
+ text-decoration: none;
+ color: var(--main-color);
+ padding: .1em 1em;
+ border-bottom: var(--bottom-border);
+}
+.contact-links a:hover {
+ color: var(--tertiary-color);
+ background-color: var(--main-color);
 }
 
 /* Mobile-first Media Queries Start */
@@ -80,4 +119,30 @@ header nav ul li a {
  header nav ul{
   text-align: right;
  }
+ .section-title-container {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin-right: 1em;
+  border-bottom:none;
+  border-right: var(--bottom-border);
+ }
+ .section-container {
+  display: flex;
+  flex-wrap: wrap;
+ }
+ #About-Me p {
+  width: 70%;
+  float: right;
+ }
+#contact-link-container {
+  display: inline-block;
+  width: 70%;
+  margin: 0 auto;
+  min-width: 60%;
+  }
+ .contact-links a {
+  margin-right: 70px;
+ }
+
 }
