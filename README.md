@@ -5,7 +5,7 @@ This is a portfolio webpage I built to showcase my knowledge of different coding
 
 ## Built with
 * HTML
-* Javascript
+* CSS
 
 ## Website
 https://paul88vera.github.io/PaulVera-Portfolio/
