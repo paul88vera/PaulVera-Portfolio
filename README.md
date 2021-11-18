@@ -1,6 +1,6 @@
 # PaulVera : Portfolio
 
-![screenshot](https://github.com/paul88vera/PaulVera-Portfolio/blob/main/assets/images/portfolio-website.png)
+![screenshot](https://github.com/paul88vera/PaulVera-Portfolio/blob/main/assets/images/portfolio-webpage.png)
 
 ## Purpose
 This is a portfolio webpage I built to showcase my knowledge of different coding languages. The bulk of my projects are from 2021-2022. It will be updated once my other projects are completed. Take a look around!
