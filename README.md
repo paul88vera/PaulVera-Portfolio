@@ -8,10 +8,10 @@ This is a portfolio webpage I built to showcase my knowledge of different coding
 * Javascript
 
 ## Website
-https://paul88vera.github.io/run-buddy/
+https://paul88vera.github.io/PaulVera-Portfolio/
 
 ## Repository
-https://github.com/paul88vera/run-buddy/
+https://github.com/paul88vera/PaulVera-Portfolio/
 
 ## Contribution
 Made by Paul Vera
