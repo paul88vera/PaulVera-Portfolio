@@ -70,6 +70,9 @@ header nav ul li a:hover {
  text-align: center;
  color: var(--accent-color);
 }
+.hero p {
+  font-size: 50ch;
+}
 .hero-subtitle {
  position: relative;
  width: 180px;
@@ -145,11 +148,15 @@ text-align: center;
 .project-info {
   position: relative;
   bottom: 80px;
-  width: 170px;
+  width: 100%;
   height: auto;
   padding: .5em;
   background-color: var(--accent-color);
   color: var(--tertiary-color);
+  cursor: default;
+}
+.project-title {
+  width: auto;
 }
 
 /* Projects Section End */
