@@ -1,70 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="./assets/style.css">
- <title>Paul Vera : Portfolio</title>
-</head>
-<body>
- 
- <!-- Header Start -->
- <header>
-  <h1><a href="/">Paul Vera</a></h1>
-  <nav>
-   <ul>
-    <li class="nav-link"><a href="#About-Me">About Me</a></li>
-    <li class="nav-link"><a href="#Work">Work</a></li>
-    <li class="nav-link"><a href="#Contact-Me">Contact Me</a></li>
-    <li class="nav-link"><a href="#" target="blank">Resume</a></li>
-   </ul>
- </nav>
- </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Paul Vera : Portfolio</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <h1><a href="/">Paul Vera</a></h1>
+      <nav>
+        <ul>
+          <li class="nav-link"><a href="#About-Me">About Me</a></li>
+          <li class="nav-link"><a href="#Work">Work</a></li>
+          <li class="nav-link"><a href="#Contact-Me">Contact Me</a></li>
+          <li class="nav-link"><a href="./assets/resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
 
- <!-- Hero Banner Start -->
-<div class="hero">
-  <div class="hero-subtitle"> 
-    <h2>Web Developer</h2>
-  </div>
-</div>
+    <!-- Hero Banner Start -->
+    <div class="hero">
+      <div class="hero-subtitle">
+        <h2>Web Developer</h2>
+      </div>
+    </div>
 
- <!-- About Me Section Start -->
-<section id="About-Me" class="section-container">
-  <div class="section-title-container">
-   <h2 class="section-title">About Me</h2>
-  </div>
-  <p>My name is Paul Vera and I am a learning full-stack developer. I have over 5 years of knowledge in front-end development and have a love for creating new projects, and more importantly, learning new coding techniques. I am currently a secondary teacher at Southwest ISD where I teach Principles of Information Technology, Computer Maintenance, and Computer Science I. Feel free to take a look at my portfolio down below!</p>
-</section>
+    <!-- About Me Section Start -->
+    <section id="About-Me" class="section-container">
+      <div class="section-title-container">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <p>
+        My name is <span>Paul Vera</span> and I am a learning <span>full-stack developer</span>. I have
+        <span>over 5 years of knowledge</span> in front-end development and have <span>a love for
+        creating new projects</span>, and more importantly, learning new coding
+        techniques. I am currently a secondary teacher at Southwest ISD where I
+        teach Principles of Information Technology, Computer Maintenance, and
+        Computer Science I. I'm currently working on other projects that include
+        <span>jQuery</span>, <span>REACT</span>, and <span>Bootstrap</span>. In the meantime, feel free to take a <span>look at my portfolio</span> down below!
+      </p>
+    </section>
 
-<!-- Work Section Start -->
-<section  id="Work" class="section-container">
- <div class="section-title-container">
-  <h2 class="section-title">Work</h2>
- </div>
+    <!-- Work Section Start -->
+    <section id="Work" class="section-container">
+      <div class="section-title-container">
+        <h2 class="section-title">Work</h2>
+      </div>
 
-<div id="projects-container">
+      <div id="projects-container">
+        <!-- First Project -->
+        <article class="project">
+          <a href="https://paul88vera.github.io/run-buddy/" target="blank"
+            ><img src="./assets/images/runbuddy-hero-bg.jpg" alt=""
+          /></a>
+          <div class="project-info">
+            <h2 class="project-title">Run Buddy</h2>
+            <h4 class="project-type">HTML/CSS</h4>
+          </div>
+        </article>
 
-<!-- First Project -->
-<article class="project">
-  <a href="https://paul88vera.github.io/run-buddy/" target="blank"><img src="./assets/images/runbuddy-hero-bg.jpg" alt="" /></a> 
-  <div class="project-info">
-    <h2 class="project-title">Run Buddy</h2>
-    <h4 class="project-type">HTML/CSS</h4>
-  </div>
-</article>
+        <!-- Second Project -->
+        <article class="project">
+          <a
+            href="https://paul88vera.github.io/password-generator/"
+            target="blank"
+            ><img src="./assets/images/password-generator.png" alt=""
+          /></a>
+          <div class="project-info">
+            <h2 class="project-title">Password Generator</h2>
+            <h4 class="project-type">JAVASCRIPT</h4>
+          </div>
+        </article>
 
-<!-- Second Project -->
-<article class="project">
-  <a href="https://paul88vera.github.io/password-generator/" target="blank"><img src="./assets/images/password-generator.png" alt="" /></a>
-  <div class="project-info">
-    <h2 class="project-title">Password Generator</h2>
-    <h4 class="project-type">JAVASCRIPT</h4>
-  </div>
-</article>
-
-<!-- Third Project Placeholder -->
-<!-- <article class="project">
+        <!-- Third Project Placeholder -->
+        <!-- <article class="project">
   <a href="https://paul88vera.github.io/BugTracker-App/" target="blank"><img src="./assets/images/bugTracker.png" alt="" /></a>
   <div class="project-info">
     <h2 class="project-title">Bug Tracker (Working)</h2>
@@ -72,42 +84,49 @@
   </div>
 </article>  -->
 
-<!-- Fourth Project -->
-<article class="project">
- <a href="https://paul88vera.github.io/taskinator/" target="blank"><img src="assets/images/taskinator.png" alt="" /></a>
-  <div class="project-info">
-    <h2 class="project-title">Taskinator</h2>
-    <h4 class="project-type">JAVASCRIPT</h4>
-  </div>
-</article> 
+        <!-- Fourth Project -->
+        <article class="project" id="first-img">
+          <a href="https://paul88vera.github.io/taskinator/" target="blank"
+            ><img src="assets/images/taskinator.png" alt=""
+          /></a>
+          <div class="project-info">
+            <h2 class="project-title">Taskinator</h2>
+            <h4 class="project-type">JAVASCRIPT</h4>
+          </div>
+        </article>
 
-<!-- Fifth Project Placeholder -->
-<!-- <article class="project">
+        <!-- Fifth Project Placeholder -->
+        <!-- <article class="project">
   <a href="https://paul88vera.github.io/robot-gladiators/" target="blank"><img src="#" alt="" /></a>
   <div class="project-info">
     <h2 class="project-title">Robot Gladiators</h2>
     <h4 class="project-type">JAVASCRIPT</h4>
   </div>
 </article>  -->
-   
-  </div>
-</section>
+      </div>
+    </section>
 
-<!-- Contact Me Section Start -->
-<section id="Contact-Me" class="section-container">
- <div class="section-title-container">
-  <h2 class="section-title">Contact Me</h2>
- </div>
+    <!-- Contact Me Section Start -->
+    <section id="Contact-Me" class="section-container">
+      <div class="section-title-container">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
 
- <div id="contact-link-container">
-  <ul>
-   <li class="contact-links"><a href="http://linkedin.com/in/paul-vera-074ab1a5" target="blank">LinkedIn</a></li>
-   <li class="contact-links"><a href="https://github.com/paul88vera/" target="blank">GitHub</a></li>
-   <li class="contact-links"><a href="mailto:paul88vera@gmail.com">paul88vera@gmail.com</a></li>
-  </ul>
- </div>
-
-</section>
-
-</body>
+      <div id="contact-link-container">
+        <ul>
+          <li class="contact-links">
+            <a href="http://linkedin.com/in/paul-vera-074ab1a5" target="blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="contact-links">
+            <a href="https://github.com/paul88vera/" target="blank">GitHub</a>
+          </li>
+          <li class="contact-links">
+            <a href="mailto:paul88vera@gmail.com">paul88vera@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
