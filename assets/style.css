@@ -132,6 +132,7 @@ header nav ul li a:hover {
   width: 61%;
   margin: 0 auto;
   display: flex;
+  flex-grow: 2;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
 }
@@ -232,9 +233,6 @@ header nav ul li a:hover {
     padding-top: 55px;
     margin-bottom: 110px;
     cursor: pointer;
-  }
-  #first-img {
-    width: 110%;
   }
   #About-Me span:hover {
     color: var(--tertiary-color);
