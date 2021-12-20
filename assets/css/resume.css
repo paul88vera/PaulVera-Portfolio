@@ -1,0 +1,62 @@
+:root {
+ --main-resume-color--: rgb(31, 119, 119);
+ --main-resume-bgcolor: rgb(35, 36, 36);
+}
+.nav-link a {
+ color: var(--main-resume-color--);
+}
+#resume-main {
+ border-top: rgb(185, 185, 185) solid 2px;
+ padding-top: 20px;
+ color: white;
+ z-index: 999;
+ background-color: var(--main-resume-bgcolor);
+ font-size: 20px;
+}
+#bg-overlay {
+ background-color: black;
+ height: 100%;
+ width: 100%;
+}
+#main-resume-title {
+ padding: 10px;
+ text-align: center;
+ width: 100%;
+ height: auto;
+}
+#main-resume-title h1 {
+ font-size: 4em;
+ color: white;
+}
+#main-resume-title h2 {
+ font-size: 2em;
+ color: var(--main-resume-color--);--webkit-text-stroke-color: white;
+ --webkit-text-stroke-width: 2px;
+}
+#contact a {
+ color: white;
+ text-decoration: none;
+}
+#contact a:hover {
+ cursor: pointer;
+}
+/* RESUME TITLE END */
+/* SUMMARY START */
+#summary {
+ width: 100%;
+ height: auto;
+}
+.about-me {
+ padding: 20px;
+}
+.banner {
+ background-color: var(--main-resume-color--);
+ color: white;
+ padding: 10px 0 10px 10px;
+ text-align: center;
+ margin: 10px 0 10px 10px;
+ /* transform-origin:left; */
+ /* transform: skewX(20deg); */
+ -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 30px 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 30px 100%);
+}

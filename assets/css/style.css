@@ -2,7 +2,7 @@
   --main-color: #5a5a66;
   --secondary-color: #d6e7d9;
   --tertiary-color: #aceb98;
-  --accent-color: #2a2b2e;
+  --accent-color: rgb(35, 36, 36);
   --bottom-border: var(--accent-color) solid 3px;
 }
 * {
@@ -29,9 +29,10 @@ header h1 {
 header h1 a {
   text-decoration: none;
   line-height: 1.5em;
-  color: var(--accent-color);
-  background-color: var(--secondary-color);
-  padding: 0.2em;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  padding: 0.2em .3em;
+  border-radius: 30px;
 }
 header nav {
   text-align: center;
@@ -62,7 +63,7 @@ header nav ul li a:hover {
 /* Hero Banner Start */
 .hero {
   height: 150px;
-  background-image: url(./images/hero-background.jpg); /*image is sourced from Pexel.com*/
+  background-image: url(../images/hero-background.jpg); /*image is sourced from Pexel.com*/
   background-size: cover;
   background-attachment: fixed;
 }
@@ -78,6 +79,8 @@ header nav ul li a:hover {
   position: relative;
   width: 180px;
   font-weight: bolder;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   float: right;
   top: 80px;
   padding: 0.5em;
