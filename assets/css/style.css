@@ -4,11 +4,18 @@
   --tertiary-color: #aceb98;
   --accent-color: rgb(35, 36, 36);
   --bottom-border: var(--accent-color) solid 3px;
+  --main-resume-color--: rgb(31, 119, 119);
+  --main-resume-bgcolor: rgb(35, 36, 36);
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+}
+body {
+  color: white;
 }
 header {
   width: 100%;
@@ -17,7 +24,7 @@ header {
   padding: 0.5em 1em;
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--accent-color);
+  background-color: var(--main-resume-bgcolor);
 }
 header h1 {
   letter-spacing: 0.1em;
@@ -25,6 +32,7 @@ header h1 {
   text-align: center;
   width: 100%;
   font-size: 36px;
+  font-family: 'Anton', sans-serif;
 }
 header h1 a {
   text-decoration: none;
@@ -53,7 +61,7 @@ header nav ul li a {
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.1em;
-  color: var(--tertiary-color);
+  color: var(--main-resume-color--);
 }
 header nav ul li a:hover {
   border-bottom: solid 1px;
@@ -84,7 +92,7 @@ header nav ul li a:hover {
   float: right;
   top: 80px;
   padding: 0.5em;
-  background-color: var(--secondary-color);
+  background-color: var(--main-resume-bgcolor);
 }
 /* Hero Section End */
 /* Sections Start */
@@ -92,7 +100,7 @@ header nav ul li a:hover {
   width: 100%;
   height: auto;
   padding: 1em;
-  background-color: var(--secondary-color);
+  background-color: var(--main-resume-bgcolor);
   color: var(--accent-color);
 }
 .section-title-container {
@@ -158,8 +166,8 @@ header nav ul li a:hover {
   width: 100%;
   height: auto;
   padding: 0.5em;
-  background-color: var(--accent-color);
-  color: var(--tertiary-color);
+  background-color: var(--tertiary-color);
+  color: var(--main-color);
   cursor: default;
 }
 .project-title {
@@ -168,7 +176,7 @@ header nav ul li a:hover {
 /* Projects Section End */
 /* Resume Page Start */
 #resume-main {
-  background-color: var(--secondary-color);
+  background-color: var(--main-resume-bgcolor);
 }
 #resume-container,
 #resume-heading {

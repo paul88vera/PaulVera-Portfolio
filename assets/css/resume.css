@@ -5,8 +5,13 @@
 .nav-link a {
  color: var(--main-resume-color--);
 }
+#resume-body {
+  background-color: var(--main-resume-bgcolor);
+}
 #resume-main {
- border-top: rgb(185, 185, 185) solid 2px;
+  max-width: 800px;
+  margin: 0 auto;
+ border: rgb(185, 185, 185) solid 2px;
  padding-top: 20px;
  color: white;
  z-index: 999;
@@ -27,11 +32,15 @@
 #main-resume-title h1 {
  font-size: 4em;
  color: white;
+ font-family: anton;
+ letter-spacing: 2px;
 }
 #main-resume-title h2 {
+  font-family: anton;
+  letter-spacing: 2px;
+
  font-size: 2em;
- color: var(--main-resume-color--);--webkit-text-stroke-color: white;
- --webkit-text-stroke-width: 2px;
+ color: var(--main-resume-color--);
 }
 #contact a {
  color: white;
@@ -48,8 +57,12 @@
 }
 .about-me {
  padding: 20px;
+ letter-spacing: 2px;
+ text-align: center;
 }
 .banner {
+ font-family: anton;
+ letter-spacing: 4px;
  background-color: var(--main-resume-color--);
  color: white;
  padding: 10px 0 10px 10px;
@@ -60,3 +73,47 @@
  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 30px 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 30px 100%);
 }
+/* EXPERIENCE START */
+#experience {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.job-info {
+  width: 100%;
+  margin: 20px 10px;
+}
+.job-info h4 {
+  text-align: center;
+  width: 100%;
+}
+#experience span {
+  color: var(--main-resume-color--);
+}
+/* EXPERIENCE END */
+/* SKILLS START */
+#skills {
+  padding: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+#skills h3 {
+  text-align: center;
+  padding: 5px 0;
+}
+#skills h3:hover {
+  color: var(--main-resume-color--);
+  cursor: default;
+}
+/* SKILLS END */
+/* EDUCATION START */
+#education {
+  padding: 20px;
+}
+.education-block {
+  padding: 40px;
+}
+#education span {
+  color: var(--main-resume-color--);
+}
+/* EDUCATION END */
