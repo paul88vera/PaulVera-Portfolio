@@ -168,6 +168,14 @@ header nav ul li a:hover {
 .project-title {
   width: auto;
 }
+.project-repo {
+  font-size: 12px;
+  color:var(--main-resume-color--);
+  font-weight: bold;
+}
+.project-repo:hover {
+  color: var(--accent-color);
+}
 /* Projects Section End */
 /* Resume Page Start */
 #resume-main {
