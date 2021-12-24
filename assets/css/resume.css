@@ -49,6 +49,9 @@
 #contact a:hover {
   cursor: pointer;
 }
+#contact a:hover {
+  color: var(--tertiary-color);
+}
 /* RESUME TITLE END */
 /* SUMMARY START */
 #summary {
