@@ -8,6 +8,7 @@ This is a portfolio webpage I built to showcase my knowledge of different coding
 ## Built with
 * HTML
 * CSS
+* JAVASCRIPT
 
 ## Website
 https://paul88vera.github.io/PaulVera-Portfolio/
