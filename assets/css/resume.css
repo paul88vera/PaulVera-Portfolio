@@ -46,11 +46,11 @@
   color: #feffff;
   text-decoration: none;
 }
-#contact a:hover {
+#contact p:hover, #contact a:hover  {
   cursor: pointer;
-}
-#contact a:hover {
   color: var(--tertiary-color);
+  transform: scale(100%);
+  transition: 1s ease;
 }
 /* RESUME TITLE END */
 /* SUMMARY START */
@@ -104,6 +104,8 @@
 #skills h3:hover {
   color: var(--tertiary-color);
   cursor: default;
+  transform: scale(120%);
+  transition: all 1s ease;
 }
 /* SKILLS END */
 /* EDUCATION START */

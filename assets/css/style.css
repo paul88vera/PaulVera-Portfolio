@@ -14,6 +14,9 @@
   font-family: 'Recursive', sans-serif;
   font-weight: 300;
 }
+body {
+  overflow-x: hidden;
+}
 header {
   width: 100%;
   height: auto;
@@ -144,6 +147,7 @@ header nav ul li a:hover {
 }
 .project {
   flex: 2;
+  flex-basis: 3;
   min-width: 300px;
   margin: 20px;
   border: var(--accent-color) solid 3px;
@@ -153,11 +157,11 @@ header nav ul li a:hover {
   height: 100%;
 }
 .project img:hover {
-  opacity: 70%;
+  opacity: 50%;
 }
 .project-info {
   position: relative;
-  bottom: 80px;
+  bottom: 120px;
   width: 100%;
   height: auto;
   padding: 0.5em;
@@ -199,6 +203,30 @@ header nav ul li a:hover {
 #resume {
   width: 100%;
 }
+/** Index Scroll Effects Start */
+.scroll {
+position: relative;
+transform: translateX(150px);
+opacity: 0;
+transition: all 1s ease;
+}
+.scroll.active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+/** Index Scroll Effects End */
+/** Resume Scroll Effects Start */
+.resScroll {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s ease;
+  }
+  .resScroll.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  /** Resume Scroll Effects End */
 
 /* Mobile-first Media Queries Start */
 @media screen and (min-width: 768px) {
@@ -258,3 +286,4 @@ header nav ul li a:hover {
     cursor: pointer;
   }
 }
+
