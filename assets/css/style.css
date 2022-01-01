@@ -14,8 +14,11 @@
   font-family: 'Recursive', sans-serif;
   font-weight: 300;
 }
-body {
+html {
   overflow-x: hidden;
+}
+body {
+  background-color: var(--accent-color);
 }
 header {
   width: 100%;
@@ -99,6 +102,7 @@ header nav ul li a:hover {
   padding: 1em;
   background-color: var(--main-resume-bgcolor);
   color: #feffff;
+  overflow-x:hidden;
 }
 .section-title-container {
   width: 100%;
@@ -144,6 +148,7 @@ header nav ul li a:hover {
   flex-grow: 2;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
+  background-color: var(--accent-color);
 }
 .project {
   flex: 2;
@@ -205,14 +210,17 @@ header nav ul li a:hover {
 }
 /** Index Scroll Effects Start */
 .scroll {
-position: relative;
-transform: translateX(150px);
-opacity: 0;
-transition: all 1s ease;
+  position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: all 1s ease;
+  width: 0%;
 }
 .scroll.active {
   transform: translateX(0px);
   opacity: 1;
+  overflow: hidden;
+  width: 100%;
 }
 /** Index Scroll Effects End */
 /** Resume Scroll Effects Start */
@@ -221,10 +229,13 @@ transition: all 1s ease;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s ease;
+  overflow: hidden;
+  width: 0%;
   }
   .resScroll.active {
     transform: translateY(0px);
     opacity: 1;
+    width: 100%;
   }
   /** Resume Scroll Effects End */
 
