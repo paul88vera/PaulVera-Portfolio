@@ -46,7 +46,8 @@
   color: #feffff;
   text-decoration: none;
 }
-#contact p:hover, #contact a:hover  {
+#contact p:hover,
+#contact a:hover {
   cursor: pointer;
   color: var(--tertiary-color);
   transform: scale(100%);

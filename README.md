@@ -2,6 +2,8 @@
 
 ![screenshot](https://github.com/paul88vera/PaulVera-Portfolio/blob/main/assets/images/portfolio-webpage.png)
 
+---
+
 ## Purpose
 This is a portfolio webpage I built to showcase my knowledge of different coding languages. The bulk of my projects are from 2021-2022. It will be updated once my other projects are completed. Take a look around!
 
@@ -13,10 +15,13 @@ This is a portfolio webpage I built to showcase my knowledge of different coding
 ## Website
 https://paul88vera.github.io/PaulVera-Portfolio/
 
-## Repository
-https://github.com/paul88vera/PaulVera-Portfolio/
 
 ## Contribution
-Made by Paul Vera
+This website was made by Paul Vera
 
-### ©2021 Paul Vera
+---
+
+## Contact
+email: paul88vera@gmail.com
+
+github: [github/paul88vera](https://github.com/paul88vera)
