@@ -71,7 +71,7 @@ header nav ul li a:hover {
 /* Header End */
 /* Hero Banner Start */
 .hero {
-  height: 150px;
+  height: 250px;
   background-image: url(../images/hero-background.jpg); /*image is sourced from Pexel.com*/
   background-size: cover;
   background-attachment: fixed;
@@ -117,6 +117,8 @@ header nav ul li a:hover {
 }
 /* Section End */
 #Contact-Me {
+  display: flex;
+  flex-direction: column;
   padding-bottom: 20px;
 }
 #contact-link-container ul {
@@ -214,7 +216,7 @@ header nav ul li a:hover {
   transform: translateX(150px);
   opacity: 0;
   transition: all 1s ease;
-  width: 0%;
+  width: -100%;
 }
 .scroll.active {
   transform: translateX(0px);
@@ -238,6 +240,35 @@ header nav ul li a:hover {
     width: 100%;
   }
   /** Resume Scroll Effects End */
+
+/* Portfolio Work Buttons */
+.btn-container {
+  width: 100%;
+  margin: 0 auto 10em auto;
+  border: none;
+  text-align: center;
+}
+.btn {
+  width: 100%;
+  padding: .6em 1em;
+  margin: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--tertiary-color);
+  color: var(--main-resume-bgcolor);
+  font-size: larger;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+.back-top-btn {
+  margin: 3em auto 0 0;
+}
+.back-top-btn > a {
+  text-decoration: none;
+}
 
 /* Mobile-first Media Queries Start */
 @media screen and (min-width: 768px) {
@@ -295,6 +326,17 @@ header nav ul li a:hover {
     font-variant:unicase;
     border-radius: 2px;
     cursor: pointer;
+  }
+  #Contact-Me {
+    display: flex;
+    flex-direction: row;
+  }
+  .btn {
+    padding: .5em .1em;
+    width: 70%;
+  }
+  .back-top-btn {
+    padding: 2em 3em;
   }
 }
 
