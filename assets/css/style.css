@@ -269,6 +269,17 @@ header nav ul li a:hover {
 .back-top-btn > a {
   text-decoration: none;
 }
+/* Hidden Attributes */
+.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+.show {
+  visibility: visible;
+}
 
 /* Mobile-first Media Queries Start */
 @media screen and (min-width: 768px) {
@@ -337,6 +348,10 @@ header nav ul li a:hover {
   }
   .back-top-btn {
     padding: 2em 3em;
+  }
+  /* Works Section */
+  #Works {
+    margin-top: -6em;
   }
 }
 

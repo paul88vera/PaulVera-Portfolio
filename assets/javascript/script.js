@@ -1,5 +1,3 @@
-
-
 var scrollReveal = function() {
  var reveal = document.querySelectorAll('.scroll');
 
@@ -31,5 +29,23 @@ var scrollReveal = function() {
   }
  }
 };
+
+const toggleWork = () => {
+  let projects = document.querySelector('#Work');
+  let works = document.querySelector('#Works');
+
+  projects.classList.remove('hidden');
+  works.classList.add('hidden');
+  console.log('developer goes on');
+};
+
+const toggleProjects = () => {
+  let projects = document.querySelector('#Work');
+  let works = document.querySelector('#Works');
+
+  works.classList.remove('hidden');
+  projects.classList.add('hidden');
+  console.log('graphics goes on');
+}
 
 window.addEventListener("scroll", scrollReveal);

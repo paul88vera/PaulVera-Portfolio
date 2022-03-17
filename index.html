@@ -57,8 +57,8 @@
     <section id="Work" class="section-container scroll">
       <div class="section-title-container btn-container">
         <h2 class="section-title">Work</h2>
-        <button class="btn webDev">Web Dev</button>
-        <button class="btn design">Graphic-Design</button>
+        <button class="btn webDev" onclick="toggleWork()">Web Dev</button>
+        <button class="btn design" onclick="toggleProjects()">Graphic-Design</button>
       </div>
       
 
@@ -240,9 +240,25 @@
       </div>
     </section>
 
-    <section id="graphic-design" class="section-container">
-      <div>
-        li>img
+   <section id="Works" class="hidden">
+    <div id="work-container" class="section-container scroll">
+      <div class="section-title-container btn-container">
+        <h2 class="section-title">Work</h2>
+        <button class="btn webDev" onclick="toggleWork()">Web Dev</button>
+        <button class="btn design" onclick="toggleProjects()">Graphic-Design</button>
+      </div>
+        <article class="project scroll">
+          <a href="https://aqueous-depths-39284.herokuapp.com/" target="blank"
+            ><img
+              src="assets/images/techieblog_homepage.png"
+              alt="This is a link to the Techie Blog repository"
+          /></a>
+          <div class="project-info">
+            <h4 class="project-type">
+              Codeup Billboard
+            </h4>
+          </div>
+        </article>
       </div>
     </section>
 
