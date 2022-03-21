@@ -73,7 +73,7 @@ header nav ul li a:hover {
 .hero {
   height: 250px;
   background-image: url(../images/hero-background.jpg); /*image is sourced from Pexel.com*/
-  background-size: cover;
+  background-size:contain;
   background-attachment: fixed;
 }
 .hero h2 {
@@ -152,9 +152,10 @@ header nav ul li a:hover {
   background-color: var(--accent-color);
 }
 .project {
-  flex: 2;
-  flex-basis: 3;
+  flex: 3;
+  /* flex-basis: 3; */
   min-width: 300px;
+  max-width: 500px;
   margin: 20px;
   border: var(--accent-color) solid 3px;
 }
@@ -250,7 +251,7 @@ header nav ul li a:hover {
 .btn {
   width: 100%;
   padding: .6em 1em;
-  margin: 1em;
+  margin: 1em auto;
   border-radius: 5px;
   border: none;
   background-color: var(--tertiary-color);
@@ -276,6 +277,16 @@ header nav ul li a:hover {
   overflow: hidden;
 }
 
+/* Folder Graphics */
+.folder-hover {
+  background-image: url(../images/folder-closed.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.folder-hover:hover {
+  background-image: url(../images/folder-open.svg);
+}
+
 /* Mobile-first Media Queries Start */
 @media screen and (min-width: 768px) {
   header h1 {
@@ -297,7 +308,7 @@ header nav ul li a:hover {
   .section-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 3em;
+    margin: 3em auto;
   }
   #About-Me p {
     width: 58%;
