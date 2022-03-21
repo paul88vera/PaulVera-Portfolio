@@ -1,332 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Recursive:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/javascript/script.js"></script>
-    <title>Paul Vera : Portfolio</title>
-  </head>
-  <body>
-    <!-- Header Start -->
-    <header>
-      <h1><a href="#">Paul Vera</a></h1>
-      <nav>
-        <ul>
-          <li class="nav-link"><a href="#About-Me">About Me</a></li>
-          <li class="nav-link"><a href="#Work">Work</a></li>
-          <li class="nav-link"><a href="#Contact-Me">Contact Me</a></li>
-          <li class="nav-link"><a href="./assets/resume.html">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <!-- Hero Banner Start -->
-    <div class="hero">
-      <div class="hero-subtitle">
-        <h2>Web Developer</h2>
-        <h2>& Designer</h2>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Recursive:wght@400;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/javascript/script.js"></script>
+  <title>Paul Vera : Portfolio</title>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header>
+    <h1><a href="#">Paul Vera</a></h1>
+    <nav>
+      <ul>
+        <li class="nav-link"><a href="#About-Me">About Me</a></li>
+        <li class="nav-link"><a href="#Work">Work</a></li>
+        <li class="nav-link"><a href="#Contact-Me">Contact Me</a></li>
+        <li class="nav-link"><a href="./assets/resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner Start -->
+  <div class="hero">
+    <div class="hero-subtitle">
+      <h2>Web Developer</h2>
+      <h2>& Designer</h2>
+    </div>
+  </div>
+
+  <!-- About Me Section Start -->
+  <section id="About-Me" class="section-container">
+    <div class="section-title-container">
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <p>
+      My name is <span>Paul Vera</span> and I am a
+      <span>full-stack developer</span> and graphic designer. I have
+      <span>over 5 years of knowledge</span> in front-end development and designer, and I
+      have a love for creating new projects. I'm currently working on
+      other projects that include <span>REACT</span> which I am swiftly
+      learning and developing applications. My goal is to be a <span>senior full-stack developer</span>. In the
+      meantime, feel free to take a <span>look at my portfolio</span> down below!
+    </p>
+  </section>
+
+
+  <!-- Work Section Start -->
+  <section id="Work" class="section-container scroll">
+    <div class="section-title-container btn-container">
+      <h2 class="section-title">Work</h2>
+      <button class="btn webDev" onclick="toggleWork()">Web Dev</button>
+      <button class="btn design" onclick="toggleProjects()">Graphic-Design</button>
     </div>
 
-    <!-- About Me Section Start -->
-    <section id="About-Me" class="section-container">
-      <div class="section-title-container">
-        <h2 class="section-title">About Me</h2>
-      </div>
-      <p>
-        My name is <span>Paul Vera</span> and I am a
-        <span>full-stack developer</span>. I have
-        <span>over 5 years of knowledge</span> in front-end development and I
-        have a love for creating new projects, but more importantly,
-        <span>learning new coding techniques</span>. I'm currently working on
-        other projects that include <span>REACT</span> which I am swiftly
-        learning. My goal is to be a <span>senior full-stack developer</span>.
-        In the meantime, feel free to take a
-        <span>look at my portfolio</span> down below!
-      </p>
-    </section>
 
-    
-    <!-- Work Section Start -->
-    <section id="Work" class="section-container scroll">
-      <div class="section-title-container btn-container">
-        <h2 class="section-title">Work</h2>
-        <button class="btn webDev" onclick="toggleWork()">Web Dev</button>
-        <button class="btn design" onclick="toggleProjects()">Graphic-Design</button>
-      </div>
-      
+    <div id="projects-container">
+      <!-- First Project -->
+      <article class="project scroll">
+        <a href="https://paul88vera.github.io/run-buddy/" target="blank"><img src="./assets/images/runbuddy-hero-bg.jpg"
+            alt="This is a link to the runbuddy website" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            Run Buddy
+            <a href="https://github.com/paul88vera/run-buddy" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">HTML / CSS</h4>
+        </div>
+      </article>
 
-      <div id="projects-container">
-        <!-- First Project -->
-        <article class="project scroll">
-          <a href="https://paul88vera.github.io/run-buddy/" target="blank"
-            ><img
-              src="./assets/images/runbuddy-hero-bg.jpg"
-              alt="This is a link to the runbuddy website"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              Run Buddy
-              <a
-                href="https://github.com/paul88vera/run-buddy"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">HTML / CSS</h4>
-          </div>
-        </article>
+      <!-- Second Project -->
+      <article class="project scroll">
+        <a href="https://www.verafiedcreations.com" target="blank"><img src="assets/images/VerafiedCreations.png"
+            alt="This is a link to the Verafied Creations WordPress website" /></a>
+        <div class="project-info">
+          <h2 class="project-title">VERAfied Creations</h2>
+          <h4 class="project-type">HTML / CSS / WORDPRESS / FREELANCE</h4>
+        </div>
+      </article>
 
-        <!-- Second Project -->
-        <article class="project scroll">
-          <a href="https://www.verafiedcreations.com" target="blank"
-            ><img
-              src="assets/images/VerafiedCreations.png"
-              alt="This is a link to the Verafied Creations WordPress website"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">VERAfied Creations</h2>
-            <h4 class="project-type">HTML / CSS / WORDPRESS / FREELANCE</h4>
-          </div>
-        </article>
+      <!-- Second Project -->
+      <article class="project scroll">
+        <a href="https://www.codeup.com" target="blank"><img src="./assets/images/CDKalypso.gif"
+            alt="This is a link to the Codeup WordPress websites" /></a>
+        <div class="project-info">
+          <h2 class="project-title">CODEUP, LLC</h2>
+          <h4 class="project-type">HTML / CSS / WORDPRESS</h4>
+        </div>
+      </article>
 
-        <!-- Second Project -->
-        <article class="project scroll">
-          <a href="https://www.codeup.com" target="blank"
-            ><img
-              src="./assets/images/CDKalypso.gif"
-              alt="This is a link to the Codeup WordPress websites"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">CODEUP, LLC</h2>
-            <h4 class="project-type">HTML / CSS / WORDPRESS</h4>
-          </div>
-        </article>
+      <!-- Third Project -->
+      <article class="project scroll">
+        <a href="https://paul88vera.github.io/password-generator/" target="blank"><img
+            src="./assets/images/password-generator.png" alt="This is a link to the password-generator website" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            Password Generator
+            <a href="https://github.com/paul88vera/password-generator" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">JAVASCRIPT</h4>
+        </div>
+      </article>
 
-        <!-- Third Project -->
-        <article class="project scroll">
-          <a
-            href="https://paul88vera.github.io/password-generator/"
-            target="blank"
-            ><img
-              src="./assets/images/password-generator.png"
-              alt="This is a link to the password-generator website"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              Password Generator
-              <a
-                href="https://github.com/paul88vera/password-generator"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">JAVASCRIPT</h4>
-          </div>
-        </article>
+      <!-- Fourth Project -->
+      <article class="project scroll" id="first-img">
+        <a href="https://paul88vera.github.io/taskmaster-pro/" target="blank"><img
+            src="./assets/images/TMP_Widescreen.png" alt="This is a link to the taskmaster-pro website" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            TaskMaster Pro
+            <a href="https://github.com/paul88vera/taskmaster-pro" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">JAVASCRIPT / JQUERY / BOOTSTRAP v5.1.3</h4>
+        </div>
+      </article>
 
-        <!-- Fourth Project -->
-        <article class="project scroll" id="first-img">
-          <a href="https://paul88vera.github.io/taskmaster-pro/" target="blank"
-            ><img
-              src="./assets/images/TMP_Widescreen.png"
-              alt="This is a link to the taskmaster-pro website"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              TaskMaster Pro
-              <a
-                href="https://github.com/paul88vera/taskmaster-pro"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">JAVASCRIPT / JQUERY / BOOTSTRAP v5.1.3</h4>
-          </div>
-        </article>
+      <!-- Fifth Project -->
+      <article class="project scroll">
+        <a href="https://github.com/paul88vera/readme-generator" target="blank"><img src="assets/images/Results.png"
+            alt="this is a link to the readme generator repository" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            Professional README Generator
+            <a href="https://github.com/paul88vera/readme-generator/" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">
+            JAVASCRIPT / JQUERY / INQUIRER / NODE.JS
+          </h4>
+        </div>
+      </article>
 
-        <!-- Fifth Project -->
-        <article class="project scroll">
-          <a
-            href="https://github.com/paul88vera/readme-generator"
-            target="blank"
-            ><img
-              src="assets/images/Results.png"
-              alt="this is a link to the readme generator repository"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              Professional README Generator
-              <a
-                href="https://github.com/paul88vera/readme-generator/"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">
-              JAVASCRIPT / JQUERY / INQUIRER / NODE.JS
-            </h4>
-          </div>
-        </article>
+      <!-- Sixth Project -->
+      <article class="project scroll">
+        <a href="https://paul88vera.github.io/daily-scheduler/" target="blank"><img
+            src="https://github.com/paul88vera/daily-scheduler/raw/main/assets/images/sched2.png"
+            alt="This is a link to the daily scheduler website" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            Daily Scheduler
+            <a href="https://github.com/paul88vera/daily-scheduler" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">
+            HTML / CSS / JAVASCRIPT / JQUERY / MOMENT.JS
+          </h4>
+        </div>
+      </article>
 
-        <!-- Sixth Project -->
-        <article class="project scroll">
-          <a href="https://paul88vera.github.io/daily-scheduler/" target="blank"
-            ><img
-              src="https://github.com/paul88vera/daily-scheduler/raw/main/assets/images/sched2.png"
-              alt="This is a link to the daily scheduler website"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              Daily Scheduler
-              <a
-                href="https://github.com/paul88vera/daily-scheduler"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">
-              HTML / CSS / JAVASCRIPT / JQUERY / MOMENT.JS
-            </h4>
-          </div>
-        </article>
+      <!-- Seventh Project -->
+      <article class="project scroll">
+        <a href="https://github.com/paul88vera/team-profile-generator" target="blank"><img
+            src="assets/images/Team_Profile_Generator.png"
+            alt="This is a link to the Team Profile Generator repository" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            Team Profile Generator
+            <a href="https://github.com/paul88vera/team-profile-generator" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">
+            BOOTSTRAP / INQUIRER / JAVASCRIPT / JEST.JS / NODE.JS
+          </h4>
+        </div>
+      </article>
 
-        <!-- Seventh Project -->
-        <article class="project scroll">
-          <a
-            href="https://github.com/paul88vera/team-profile-generator"
-            target="blank"
-            ><img
-              src="assets/images/Team_Profile_Generator.png"
-              alt="This is a link to the Team Profile Generator repository"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              Team Profile Generator
-              <a
-                href="https://github.com/paul88vera/team-profile-generator"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">
-              BOOTSTRAP / INQUIRER / JAVASCRIPT / JEST.JS / NODE.JS
-            </h4>
-          </div>
-        </article>
+      <!-- Eighth Project -->
+      <article class="project scroll">
+        <a href="https://aqueous-depths-39284.herokuapp.com/" target="blank"><img
+            src="assets/images/techieblog_homepage.png" alt="This is a link to the Techie Blog repository" /></a>
+        <div class="project-info">
+          <h2 class="project-title">
+            Techie Blog
+            <a href="https://github.com/paul88vera/tech-blog" class="project-repo" target="_blank">Project
+              Repository</a>
+          </h2>
+          <h4 class="project-type">
+            BOOTSTRAP / BCRYPT / JS / MYSQL / HANDLEBARS / EXPRESS.JS / HEROKU
+            / API
+          </h4>
+        </div>
+      </article>
+    </div>
+  </section>
 
-        <!-- Eighth Project -->
-        <article class="project scroll">
-          <a href="https://aqueous-depths-39284.herokuapp.com/" target="blank"
-            ><img
-              src="assets/images/techieblog_homepage.png"
-              alt="This is a link to the Techie Blog repository"
-          /></a>
-          <div class="project-info">
-            <h2 class="project-title">
-              Techie Blog
-              <a
-                href="https://github.com/paul88vera/tech-blog"
-                class="project-repo"
-                target="_blank"
-                >Project Repository</a
-              >
-            </h2>
-            <h4 class="project-type">
-              BOOTSTRAP / BCRYPT / JS / MYSQL / HANDLEBARS / EXPRESS.JS / HEROKU
-              / API
-            </h4>
-          </div>
-        </article>
-      </div>
-    </section>
-
-   <section id="Works" class="hidden">
+  <section id="Works" class="hidden">
     <div id="work-container" class="section-container scroll">
       <div class="section-title-container btn-container">
         <h2 class="section-title">Work</h2>
         <button class="btn webDev" onclick="toggleWork()">Web Dev</button>
         <button class="btn design" onclick="toggleProjects()">Graphic-Design</button>
       </div>
-        <article class="project scroll">
-          <a href="https://drive.google.com/drive/u/0/folders/1tneEhwrD6RmKmpzn-iKjpr3oUKoJWahe" target="blank"
-            ><img
-              src="./assets/images/folder-closed.svg"
-              alt="This is a link to my Google Drive Folder with billboards"
-              class="folder-hover"
-          /></a>
-          <div class="project-info">
-            <h4 class="project-type">
-              CODEUP, LLC Billboards
-            </h4>
-          </div>
-        </article>
-        <article class="project scroll">
-          <a href="https://drive.google.com/drive/u/0/folders/1Yx4hoTuycy8U5Ux27eUgwG1cKtKPjCBm" target="blank"
-          ><img
-          src="./assets/images/folder-closed.svg"
-          alt="This is a link to my Google Drive Folder with 3D Models & Motion Graphics"
-          class="folder-hover"
-          /></a>
-          <div class="project-info">
-            <h4 class="project-type">
-              3D Modeling & Motion Graphics
-            </h4>
-          </div>
-        </article>
-        <article class="project scroll">
-          <a href="https://drive.google.com/drive/u/0/folders/1ehH1gGdznhvjhZwkqvmDctb9FS0JpslY" target="blank"
-            ><img
-              src="./assets/images/folder-closed.svg"
-              alt="This is a link to my Google Drive Folder with Graphic Design"
-              class="folder-hover"
-          /></a>
-          <div class="project-info">
-            <h4 class="project-type">
-              Graphic Design
-            </h4>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- Contact Me Section Start -->
-    <section id="Contact-Me" class="section-container scroll">
-      <div class="section-title-container">
-        <h2 class="section-title">Contact Me</h2>
-      </div>
-      
-      <div id="contact-link-container">
-        <ul>
-          <li class="contact-links">
-            <a href="http://linkedin.com/in/paul-vera-074ab1a5" target="blank"
-            >LinkedIn</a
-            >
-          </li>
-          <li class="contact-links">
-            <a href="https://github.com/paul88vera/" target="blank">GitHub</a>
-          </li>
-          <li class="contact-links">
-            <a href="mailto:paul88vera@gmail.com">paul88vera@gmail.com</a>
-          </li>
-        </ul>
-        <div class="back-top-btn">
-          <a href="#About-Me" class="btn">^ top</a>
+      <article class="project scroll">
+        <a href="https://drive.google.com/drive/u/0/folders/1tneEhwrD6RmKmpzn-iKjpr3oUKoJWahe" target="blank"><img
+            src="./assets/images/folder-closed.svg" alt="This is a link to my Google Drive Folder with billboards"
+            class="folder-hover" /></a>
+        <div class="project-info">
+          <h4 class="project-type">
+            CODEUP, LLC Billboards
+          </h4>
         </div>
+      </article>
+      <article class="project scroll">
+        <a href="https://drive.google.com/drive/u/0/folders/1Yx4hoTuycy8U5Ux27eUgwG1cKtKPjCBm" target="blank"><img
+            src="./assets/images/folder-closed.svg"
+            alt="This is a link to my Google Drive Folder with 3D Models & Motion Graphics" class="folder-hover" /></a>
+        <div class="project-info">
+          <h4 class="project-type">
+            3D Modeling & Motion Graphics
+          </h4>
+        </div>
+      </article>
+      <article class="project scroll">
+        <a href="https://drive.google.com/drive/u/0/folders/1ehH1gGdznhvjhZwkqvmDctb9FS0JpslY" target="blank"><img
+            src="./assets/images/folder-closed.svg" alt="This is a link to my Google Drive Folder with Graphic Design"
+            class="folder-hover" /></a>
+        <div class="project-info">
+          <h4 class="project-type">
+            Graphic Design
+          </h4>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Contact Me Section Start -->
+  <section id="Contact-Me" class="section-container scroll">
+    <div class="section-title-container">
+      <h2 class="section-title">Contact Me</h2>
+    </div>
+
+    <div id="contact-link-container">
+      <ul>
+        <li class="contact-links">
+          <a href="http://linkedin.com/in/paul-vera-074ab1a5" target="blank">LinkedIn</a>
+        </li>
+        <li class="contact-links">
+          <a href="https://github.com/paul88vera/" target="blank">GitHub</a>
+        </li>
+        <li class="contact-links">
+          <a href="mailto:paul88vera@gmail.com">paul88vera@gmail.com</a>
+        </li>
+      </ul>
+      <div class="back-top-btn">
+        <a href="#About-Me" class="btn">^ top</a>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
