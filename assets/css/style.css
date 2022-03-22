@@ -73,7 +73,8 @@ header nav ul li a:hover {
 .hero {
   height: 250px;
   background-image: url(../images/hero-background.jpg); /*image is sourced from Pexel.com*/
-  background-size:contain;
+  background-size:cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .hero h2 {
@@ -146,14 +147,14 @@ header nav ul li a:hover {
   width: 61%;
   margin: 0 auto;
   display: flex;
-  flex-grow: 2;
+  flex-grow: 3;
+  flex-shrink: 3;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
   background-color: var(--accent-color);
 }
 .project {
   flex: 3;
-  /* flex-basis: 3; */
   min-width: 300px;
   max-width: 500px;
   margin: 20px;
@@ -243,9 +244,7 @@ header nav ul li a:hover {
 
 /* Portfolio Work Buttons */
 .btn-container {
-  width: 100%;
-  margin: 0 auto 10em auto;
-  border: none;
+  margin: -1em auto 12em auto;
   text-align: center;
 }
 .btn {
@@ -264,7 +263,9 @@ header nav ul li a:hover {
   color: var(--secondary-color);
 }
 .back-top-btn {
-  margin: 3em auto 0 0;
+  text-align: center;
+  display: flex;
+  margin: 3em auto;
 }
 .back-top-btn > a {
   text-decoration: none;
@@ -275,6 +276,7 @@ header nav ul li a:hover {
   width: 0;
   height: 0;
   overflow: hidden;
+  display: none;
 }
 
 /* Folder Graphics */
@@ -352,12 +354,12 @@ header nav ul li a:hover {
     padding: .5em .1em;
     width: 70%;
   }
-  .back-top-btn {
-    padding: 2em 3em;
+  /* Mobile Works Section */
+  .btn-container {
+    margin: 0;
   }
-  /* Works Section */
   #Works {
-    margin-top: -6em;
+    margin-top: -5em;
   }
 }
 
