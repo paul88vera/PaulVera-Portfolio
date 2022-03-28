@@ -74,10 +74,11 @@ header nav ul li a:hover {
 .hero {
   height: 250px;
   background-image: url(../images/hero-background.jpg); /*image is sourced from Pexel.com*/
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment:local;
 }
+
 .hero h2 {
   text-align: center;
   color: var(--secondary-color);
@@ -361,6 +362,9 @@ header nav ul li a:hover {
   }
   #Works {
     margin-top: -5em;
+  }
+  .hero {
+    background-size: cover;
   }
 }
 
