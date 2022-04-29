@@ -368,3 +368,20 @@ header nav ul li a:hover {
   }
 }
 
+#new_port {
+  text-align: center;
+  padding: 2em 0;
+  background-color: #80f7cf;
+  
+}
+#new_port a {
+  padding: 1em 2em;
+  background-color:#5a5a66;
+  color: #80f7cf;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#new_port a:hover {
+  color: #5a5a66;
+  background-color: #d6e7e7;
+}
